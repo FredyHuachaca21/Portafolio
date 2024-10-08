@@ -12,7 +12,7 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/Portafolio">
         <Layout>
           <Navbar />
           <Routes>
