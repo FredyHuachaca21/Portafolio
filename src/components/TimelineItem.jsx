@@ -76,7 +76,7 @@ const TimelineItem = ({ align, company, client, role, period, location, activiti
                borderWidth: '2px',
                borderStyle: 'solid'
              }}></div>
-        <div className={`ml-3 md:ml-0 md:absolute ${align === 'left' ? 'md:right-full md:mr-2' : 'md:left-full md:ml-2'} whitespace-nowrap text-sm font-semibold transition-colors duration-300`}
+        <div className={`ml-3 md:ml-0 md:absolute ${align === 'left' ? 'md:right-full md:mr-8' : 'md:left-full md:ml-2'} whitespace-nowrap text-sm font-semibold transition-colors duration-300`}
              style={{ color: isHovered ? theme.primary : theme.text }}>
           {startYear}
         </div>
