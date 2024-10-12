@@ -6,6 +6,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       boxShadow: {
         'neomorphism': '5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff',
